@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fagift Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    <div class="container">
+
+      <header class="header">
+        <div class="box">
+          <h2 class="heading">Fagift Box</h2>
+          <p class="sub-heading">Custom Giftbox</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 70k</h4>
+          <p class="item">Box Besar</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 50K</h4>
+          <p class="item">Box Sedang</p>
+        </div>
+      </header>
+
+      <!-- Nav -->
+      <nav class="menu">
+        <div class="menu-toogle">
+              <input type="checkbox">
+              <span></span>
+              <span></span>
+              <span></span>
+         </div>
+        <div class="brand">
+          <h1>Fagift Box</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <!-- Sevices -->
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Custom Giftbox</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure omnis aliquam ab voluptate veritatis provident perferendis quo aperiam quos id labore, impedit modi. Omnis sint quisquam a explicabo deleniti.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Order</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure omnis aliquam ab voluptate veritatis provident perferendis quo aperiam quos id labore, impedit modi. Omnis sint quisquam a explicabo deleniti.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Color</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure omnis aliquam ab voluptate veritatis provident perferendis quo aperiam quos id labore, impedit modi. Omnis sint quisquam a explicabo deleniti.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Box Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure omnis aliquam ab voluptate veritatis provident perferendis quo aperiam quos id labore, impedit modi. Omnis sint quisquam a explicabo deleniti.</p>
+        </div>
+
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+          <img src="https://source.unsplash.com/random/201x201" alt="">
+          <img src="https://source.unsplash.com/random/202x202" alt="">
+          <img src="https://source.unsplash.com/random/203x203" alt="">
+          <img src="https://source.unsplash.com/random/204x204" alt="">
+          <img src="https://source.unsplash.com/random/205x205" alt="">
+          <img src="https://source.unsplash.com/random/206x206" alt="">
+          <img src="https://source.unsplash.com/random/207x207" alt="">
+          <img src="https://source.unsplash.com/random/208x208" alt="">
+          <img src="https://source.unsplash.com/random/209x209" alt="">
+          <img src="https://source.unsplash.com/random/210x210" alt="">
+
+      </section>
+
+      <!-- Akhir Nav -->
+    </div>
+    <script>
+      const menuToogle = document.querySelector('.menu-toogle');
+      const nav = document.querySelector('nav ul');
+
+      menuToogle.addEventListener('click', function (){
+        nav.classList.toggle('slide');
+      });
+    </script>
+</body>
+</html>
